@@ -20,6 +20,13 @@ for (let i = 1; i <= 100; i++){
     containerGrid.append(square);
 
     // Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro
+    square.addEventListener("click", 
+        function (){
+            this.classList.toggle("active");
+
+            // ed emetto un messaggio in console con il numero della cella cliccata.
+            console.log(`hai cliccato la cella con il numero ${i}`);
+        }
+    )
 }
 
-//  ed emetto un messaggio in console con il numero della cella cliccata.
