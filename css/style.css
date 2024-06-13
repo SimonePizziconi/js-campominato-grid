@@ -14,14 +14,9 @@ body{
 .grid-container{
     width: 50%;
     margin: 0 auto;
-    border: 5px solid #fff;
+    display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    display: none;
-}
-
-.play{
-    display: flex;
 }
 
 
